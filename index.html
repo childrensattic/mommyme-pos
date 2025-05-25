@@ -1,29 +1,17 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mommy & Me POS</title>
-  <style>
-    body { font-family: Arial, sans-serif; padding: 2rem; background: #f5f5f5; }
-    h1 { color: #333; }
-    .section { background: #fff; padding: 1rem; margin-bottom: 1rem; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
-  </style>
+  <meta charset="UTF-8">
+  <title>Login - Mommy & Me POS</title>
 </head>
 <body>
-  <h1>Mommy & Me Children's Attic POS</h1>
-  <div class="section">
-    <h2>Inventory</h2>
-    <p>This will show your current store inventory once live.</p>
-  </div>
-  <div class="section">
-    <h2>Checkout</h2>
-    <p>Add items here to ring up a sale.</p>
-  </div>
-  <div class="section">
-    <h2>Customer Dashboard</h2>
-    <p>Track store credit, due dates, and welcome gift messages.</p>
-  </div>
+  <h1>Mommy & Me POS - Login</h1>
+  <form action="dashboard.html" method="GET">
+    <label>Email:</label><br>
+    <input type="email" name="email" value="admin@mommyme.com" required><br><br>
+    <label>Password:</label><br>
+    <input type="password" name="password" value="MommyPOS2024!" required><br><br>
+    <button type="submit">Log In</button>
+  </form>
 </body>
 </html>
