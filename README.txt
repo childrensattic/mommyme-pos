@@ -1,11 +1,13 @@
-# Mommy & Me POS - Final System Upload
+# Mommy & Me POS - Final Upload
+
+### Follow these steps to go live:
 
 1. Unzip this folder
-2. Go to your GitHub repo: https://github.com/childrensattic/mommyme-pos
-3. Click "Add file" > "Upload files"
-4. Upload ALL files inside this folder (index.html, dashboard.html)
+2. Go to https://github.com/childrensattic/mommyme-pos
+3. Click "Add file" → "Upload files"
+4. Upload all files from inside the unzipped folder (not the folder itself)
 5. Click "Commit changes"
-6. Go to https://vercel.com/dashboard and redeploy your mommyme-pos project
+6. Visit https://vercel.com and redeploy your 'mommyme-pos' project
 
-Your POS will go live at:
+Your site will go live at:
 https://mommyme-pos.vercel.app
